@@ -17,7 +17,7 @@ on:
       ssh:
         description: 'SSH connection to Actions'
         required: false
-        default: 'Testing'
+        default: 'n1'
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
