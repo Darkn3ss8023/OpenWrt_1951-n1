@@ -207,7 +207,7 @@ jobs:
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
         body: |
          Firmware information
-          * 默认IP: 192.168.123.2
+          * 默认IP: 192.168.3.2
           * 默认密码: password
 
     - name: Delete workflow runs
